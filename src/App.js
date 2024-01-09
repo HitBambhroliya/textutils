@@ -27,6 +27,12 @@ function App() {
           mode={mode}
           toggleMode={toggleMode}
         />
+         <Navbar
+          title="Textutils"
+          about="about"
+          mode={mode}
+          toggleMode={toggleMode}
+        />
 
         <div className="container">
           <Routes>
@@ -34,6 +40,11 @@ function App() {
             <Route path="/" element={<TextForm heading="Enter the text to analyze" mode={mode} />}/>
           </Routes>
         </div>
+        <div>
+          het
+        </div>
+     
+       
       </Router>
     </>
   );
